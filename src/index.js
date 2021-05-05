@@ -7,6 +7,9 @@ import Toggle from './Toggle';
 import Greeting from './Greeting';
 import LoginControl from './LoginControl';
 import listItems from './NumberList';
+import NameForm from './NameForm';
+import EssayForm from './EssayForm';
+import FlavorForm from './FlavorForm';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -22,6 +25,9 @@ ReactDOM.render(
     <LoginControl />
     <br />
     <ol>{listItems}</ol>
+    <NameForm />
+    <EssayForm />
+    <FlavorForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
