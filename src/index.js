@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Clock from './Clock';
+import ActionLink from './ActionLink';
+import Toggle from './Toggle';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -10,6 +11,8 @@ ReactDOM.render(
     <Clock />
     <Clock />
     <Clock />
+    <ActionLink />
+    <Toggle />
   </React.StrictMode>,
   document.getElementById('root')
 );
