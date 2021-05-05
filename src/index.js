@@ -4,6 +4,8 @@ import './index.css';
 import Clock from './Clock';
 import ActionLink from './ActionLink';
 import Toggle from './Toggle';
+import Greeting from './Greeting';
+import LoginControl from './LoginControl';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,6 +15,10 @@ ReactDOM.render(
     <Clock />
     <ActionLink />
     <Toggle />
+    <br />
+    <Greeting isLoggedIn={true} />
+    <br />
+    <LoginControl />
   </React.StrictMode>,
   document.getElementById('root')
 );
