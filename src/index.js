@@ -10,6 +10,7 @@ import listItems from './NumberList';
 import NameForm from './NameForm';
 import EssayForm from './EssayForm';
 import FlavorForm from './FlavorForm';
+import Calculator from './TemperatureCalculator';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -28,6 +29,7 @@ ReactDOM.render(
     <NameForm />
     <EssayForm />
     <FlavorForm />
+    <Calculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
