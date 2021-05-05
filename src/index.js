@@ -6,6 +6,7 @@ import ActionLink from './ActionLink';
 import Toggle from './Toggle';
 import Greeting from './Greeting';
 import LoginControl from './LoginControl';
+import listItems from './NumberList';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -19,6 +20,8 @@ ReactDOM.render(
     <Greeting isLoggedIn={true} />
     <br />
     <LoginControl />
+    <br />
+    <ol>{listItems}</ol>
   </React.StrictMode>,
   document.getElementById('root')
 );
